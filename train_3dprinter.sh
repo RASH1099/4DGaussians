@@ -7,7 +7,7 @@ PORT_BASE=6000
 SCENE_NAME="3dprinter"
 DATA_ROOT="data/hypernerf"
 CONFIG_ROOT="arguments/hypernerf"
-OUTPUT_ROOT="output/hypernerf"
+OUTPUT_ROOT="output"
 PORT_NUM="6017"
 
 # 自动推导路径
