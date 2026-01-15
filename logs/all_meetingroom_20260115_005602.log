@@ -1,8 +1,8 @@
-========== RUN START: 2026-01-14 21:57:04 ==========
+========== RUN START: 2026-01-15 00:56:03 ==========
 BASE_DIR  : /home/jiangzhenghan/project/4DGaussians
-SCRIPT_DIR: /home/jiangzhenghan/project/4DGaussians/MeetingRoom
+SCRIPT_DIR: /home/jiangzhenghan/project/4DGaussians
 LOG_DIR   : /home/jiangzhenghan/project/4DGaussians/logs
-Wed Jan 14 21:57:04 2026       
+Thu Jan 15 00:56:03 2026       
 +---------------------------------------------------------------------------------------+
 | NVIDIA-SMI 535.183.01             Driver Version: 535.183.01   CUDA Version: 12.2     |
 |-----------------------------------------+----------------------+----------------------+
@@ -11,15 +11,15 @@ Wed Jan 14 21:57:04 2026
 |                                         |                      |               MIG M. |
 |=========================================+======================+======================|
 |   0  NVIDIA RTX A5000               Off | 00000000:18:00.0 Off |                  Off |
-| 30%   51C    P2             104W / 230W |  18212MiB / 24564MiB |     22%      Default |
+| 30%   60C    P2              91W / 230W |  18176MiB / 24564MiB |      9%      Default |
 |                                         |                      |                  N/A |
 +-----------------------------------------+----------------------+----------------------+
 |   1  NVIDIA RTX A5000               Off | 00000000:86:00.0 Off |                  Off |
-| 34%   66C    P2             211W / 230W |   6562MiB / 24564MiB |     84%      Default |
+| 47%   71C    P2             158W / 230W |  12536MiB / 24564MiB |      0%      Default |
 |                                         |                      |                  N/A |
 +-----------------------------------------+----------------------+----------------------+
 |   2  NVIDIA RTX A5000               Off | 00000000:AF:00.0 Off |                  Off |
-| 38%   63C    P2             136W / 230W |  13614MiB / 24564MiB |     36%      Default |
+| 53%   78C    P2             227W / 230W |  13614MiB / 24564MiB |     96%      Default |
 |                                         |                      |                  N/A |
 +-----------------------------------------+----------------------+----------------------+
                                                                                          
@@ -29,9 +29,9 @@ Wed Jan 14 21:57:04 2026
 |        ID   ID                                                             Usage      |
 |=======================================================================================|
 |    0   N/A  N/A      2062      G   /usr/lib/xorg/Xorg                            4MiB |
-|    0   N/A  N/A   2911142      C   python                                    18198MiB |
+|    0   N/A  N/A   2911142      C   python                                    18162MiB |
 |    1   N/A  N/A      2062      G   /usr/lib/xorg/Xorg                            4MiB |
-|    1   N/A  N/A   4162283      C   python                                     6548MiB |
+|    1   N/A  N/A   4162283      C   python                                    12522MiB |
 |    2   N/A  N/A      2062      G   /usr/lib/xorg/Xorg                            4MiB |
 |    2   N/A  N/A   1847767      C   python                                    13600MiB |
 +---------------------------------------------------------------------------------------+
@@ -49,19 +49,7 @@ Scripts:
   - MeetingRoom_PourHotWater.sh
   - MeetingRoom_WhiteFoamCovers.sh
 =================================================
-[MISSING] /home/jiangzhenghan/project/4DGaussians/MeetingRoom/MeetingRoom_Bacon.sh
-[MISSING] /home/jiangzhenghan/project/4DGaussians/MeetingRoom/MeetingRoom_DeliverIcePacks.sh
-[MISSING] /home/jiangzhenghan/project/4DGaussians/MeetingRoom/MeetingRoom_EatIceCream.sh
-[MISSING] /home/jiangzhenghan/project/4DGaussians/MeetingRoom/MeetingRoom_flare.sh
-[MISSING] /home/jiangzhenghan/project/4DGaussians/MeetingRoom/MeetingRoom_HairDryer.sh
-[MISSING] /home/jiangzhenghan/project/4DGaussians/MeetingRoom/MeetingRoom_HairDryerDark.sh
-[MISSING] /home/jiangzhenghan/project/4DGaussians/MeetingRoom/MeetingRoom_IroningClothes.sh
-[MISSING] /home/jiangzhenghan/project/4DGaussians/MeetingRoom/MeetingRoom_Laptop.sh
-[MISSING] /home/jiangzhenghan/project/4DGaussians/MeetingRoom/MeetingRoom_LightTheCandles.sh
-[MISSING] /home/jiangzhenghan/project/4DGaussians/MeetingRoom/MeetingRoom_MixMilk.sh
-[MISSING] /home/jiangzhenghan/project/4DGaussians/MeetingRoom/MeetingRoom_PourHotWater.sh
-[MISSING] /home/jiangzhenghan/project/4DGaussians/MeetingRoom/MeetingRoom_WhiteFoamCovers.sh
 
-========== RUN END: 2026-01-14 21:57:05 ==========
-Summary CSV : /home/jiangzhenghan/project/4DGaussians/logs/summary_meetingroom_20260114_215704.csv
-Master log  : /home/jiangzhenghan/project/4DGaussians/logs/all_meetingroom_20260114_215704.log
+===== START MeetingRoom_Bacon.sh @ 2026-01-15 00:56:03 =====
+Script: /home/jiangzhenghan/project/4DGaussians/MeetingRoom_Bacon.sh
+Log   : /home/jiangzhenghan/project/4DGaussians/logs/MeetingRoom_Bacon_20260115_005602.log

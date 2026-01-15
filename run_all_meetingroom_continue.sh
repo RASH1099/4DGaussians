@@ -2,7 +2,7 @@
 set -uo pipefail
 
 BASE_DIR="/home/jiangzhenghan/project/4DGaussians"
-SCRIPT_DIR="${BASE_DIR}/MeetingRoom"
+SCRIPT_DIR="${BASE_DIR}"
 LOG_DIR="${BASE_DIR}/logs"
 mkdir -p "$LOG_DIR"
 
