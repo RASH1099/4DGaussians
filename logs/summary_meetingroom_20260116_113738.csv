@@ -1,0 +1,13 @@
+script,start_time,end_time,exit_code,log_file
+MeetingRoom_Bacon.sh,2026-01-16 11:37:38,2026-01-16 13:22:02,0,/home/jiangzhenghan/project/4DGaussians/logs/MeetingRoom_Bacon_20260116_113738.log
+MeetingRoom_DeliverIcePacks.sh,2026-01-16 13:22:02,2026-01-16 15:29:28,0,/home/jiangzhenghan/project/4DGaussians/logs/MeetingRoom_DeliverIcePacks_20260116_113738.log
+MeetingRoom_EatIceCream.sh,2026-01-16 15:29:28,2026-01-16 16:15:08,0,/home/jiangzhenghan/project/4DGaussians/logs/MeetingRoom_EatIceCream_20260116_113738.log
+MeetingRoom_flare.sh,2026-01-16 16:15:08,2026-01-16 17:26:15,1,/home/jiangzhenghan/project/4DGaussians/logs/MeetingRoom_flare_20260116_113738.log
+MeetingRoom_HairDryer.sh,2026-01-16 17:26:15,2026-01-16 17:36:24,1,/home/jiangzhenghan/project/4DGaussians/logs/MeetingRoom_HairDryer_20260116_113738.log
+MeetingRoom_HairDryerDark.sh,2026-01-16 17:36:24,2026-01-16 18:53:09,0,/home/jiangzhenghan/project/4DGaussians/logs/MeetingRoom_HairDryerDark_20260116_113738.log
+MeetingRoom_IroningClothes.sh,2026-01-16 18:53:09,2026-01-16 19:49:46,0,/home/jiangzhenghan/project/4DGaussians/logs/MeetingRoom_IroningClothes_20260116_113738.log
+MeetingRoom_Laptop.sh,2026-01-16 19:49:46,2026-01-16 21:22:08,0,/home/jiangzhenghan/project/4DGaussians/logs/MeetingRoom_Laptop_20260116_113738.log
+MeetingRoom_LightTheCandles.sh,2026-01-16 21:22:08,2026-01-16 22:21:14,1,/home/jiangzhenghan/project/4DGaussians/logs/MeetingRoom_LightTheCandles_20260116_113738.log
+MeetingRoom_MixMilk.sh,2026-01-16 22:21:14,2026-01-17 00:10:35,0,/home/jiangzhenghan/project/4DGaussians/logs/MeetingRoom_MixMilk_20260116_113738.log
+MeetingRoom_PourHotWater.sh,2026-01-17 00:10:35,2026-01-17 02:04:26,0,/home/jiangzhenghan/project/4DGaussians/logs/MeetingRoom_PourHotWater_20260116_113738.log
+MeetingRoom_WhiteFoamCovers.sh,2026-01-17 02:04:26,2026-01-17 02:43:11,0,/home/jiangzhenghan/project/4DGaussians/logs/MeetingRoom_WhiteFoamCovers_20260116_113738.log

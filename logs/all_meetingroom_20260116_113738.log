@@ -1,0 +1,113 @@
+========== RUN START: 2026-01-16 11:37:38 ==========
+BASE_DIR  : /home/jiangzhenghan/project/4DGaussians
+SCRIPT_DIR: /home/jiangzhenghan/project/4DGaussians
+LOG_DIR   : /home/jiangzhenghan/project/4DGaussians/logs
+Fri Jan 16 11:37:38 2026       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.183.01             Driver Version: 535.183.01   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA RTX A5000               Off | 00000000:18:00.0 Off |                  Off |
+| 30%   25C    P8              16W / 230W |      9MiB / 24564MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+|   1  NVIDIA RTX A5000               Off | 00000000:86:00.0 Off |                  Off |
+| 30%   28C    P8              22W / 230W |      9MiB / 24564MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+|   2  NVIDIA RTX A5000               Off | 00000000:AF:00.0 Off |                  Off |
+| 50%   76C    P2             221W / 230W |   7478MiB / 24564MiB |     97%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|    0   N/A  N/A      2062      G   /usr/lib/xorg/Xorg                            4MiB |
+|    1   N/A  N/A      2062      G   /usr/lib/xorg/Xorg                            4MiB |
+|    2   N/A  N/A      2062      G   /usr/lib/xorg/Xorg                            4MiB |
+|    2   N/A  N/A   4179265      C   python                                     7464MiB |
++---------------------------------------------------------------------------------------+
+Scripts:
+  - MeetingRoom_Bacon.sh
+  - MeetingRoom_DeliverIcePacks.sh
+  - MeetingRoom_EatIceCream.sh
+  - MeetingRoom_flare.sh
+  - MeetingRoom_HairDryer.sh
+  - MeetingRoom_HairDryerDark.sh
+  - MeetingRoom_IroningClothes.sh
+  - MeetingRoom_Laptop.sh
+  - MeetingRoom_LightTheCandles.sh
+  - MeetingRoom_MixMilk.sh
+  - MeetingRoom_PourHotWater.sh
+  - MeetingRoom_WhiteFoamCovers.sh
+=================================================
+
+===== START MeetingRoom_Bacon.sh @ 2026-01-16 11:37:38 =====
+Script: /home/jiangzhenghan/project/4DGaussians/MeetingRoom_Bacon.sh
+Log   : /home/jiangzhenghan/project/4DGaussians/logs/MeetingRoom_Bacon_20260116_113738.log
+===== END   MeetingRoom_Bacon.sh @ 2026-01-16 13:22:02 | exit=0 =====
+
+===== START MeetingRoom_DeliverIcePacks.sh @ 2026-01-16 13:22:02 =====
+Script: /home/jiangzhenghan/project/4DGaussians/MeetingRoom_DeliverIcePacks.sh
+Log   : /home/jiangzhenghan/project/4DGaussians/logs/MeetingRoom_DeliverIcePacks_20260116_113738.log
+===== END   MeetingRoom_DeliverIcePacks.sh @ 2026-01-16 15:29:28 | exit=0 =====
+
+===== START MeetingRoom_EatIceCream.sh @ 2026-01-16 15:29:28 =====
+Script: /home/jiangzhenghan/project/4DGaussians/MeetingRoom_EatIceCream.sh
+Log   : /home/jiangzhenghan/project/4DGaussians/logs/MeetingRoom_EatIceCream_20260116_113738.log
+===== END   MeetingRoom_EatIceCream.sh @ 2026-01-16 16:15:08 | exit=0 =====
+
+===== START MeetingRoom_flare.sh @ 2026-01-16 16:15:08 =====
+Script: /home/jiangzhenghan/project/4DGaussians/MeetingRoom_flare.sh
+Log   : /home/jiangzhenghan/project/4DGaussians/logs/MeetingRoom_flare_20260116_113738.log
+===== END   MeetingRoom_flare.sh @ 2026-01-16 17:26:15 | exit=1 =====
+
+===== START MeetingRoom_HairDryer.sh @ 2026-01-16 17:26:15 =====
+Script: /home/jiangzhenghan/project/4DGaussians/MeetingRoom_HairDryer.sh
+Log   : /home/jiangzhenghan/project/4DGaussians/logs/MeetingRoom_HairDryer_20260116_113738.log
+===== END   MeetingRoom_HairDryer.sh @ 2026-01-16 17:36:24 | exit=1 =====
+
+===== START MeetingRoom_HairDryerDark.sh @ 2026-01-16 17:36:24 =====
+Script: /home/jiangzhenghan/project/4DGaussians/MeetingRoom_HairDryerDark.sh
+Log   : /home/jiangzhenghan/project/4DGaussians/logs/MeetingRoom_HairDryerDark_20260116_113738.log
+===== END   MeetingRoom_HairDryerDark.sh @ 2026-01-16 18:53:09 | exit=0 =====
+
+===== START MeetingRoom_IroningClothes.sh @ 2026-01-16 18:53:09 =====
+Script: /home/jiangzhenghan/project/4DGaussians/MeetingRoom_IroningClothes.sh
+Log   : /home/jiangzhenghan/project/4DGaussians/logs/MeetingRoom_IroningClothes_20260116_113738.log
+===== END   MeetingRoom_IroningClothes.sh @ 2026-01-16 19:49:46 | exit=0 =====
+
+===== START MeetingRoom_Laptop.sh @ 2026-01-16 19:49:46 =====
+Script: /home/jiangzhenghan/project/4DGaussians/MeetingRoom_Laptop.sh
+Log   : /home/jiangzhenghan/project/4DGaussians/logs/MeetingRoom_Laptop_20260116_113738.log
+===== END   MeetingRoom_Laptop.sh @ 2026-01-16 21:22:08 | exit=0 =====
+
+===== START MeetingRoom_LightTheCandles.sh @ 2026-01-16 21:22:08 =====
+Script: /home/jiangzhenghan/project/4DGaussians/MeetingRoom_LightTheCandles.sh
+Log   : /home/jiangzhenghan/project/4DGaussians/logs/MeetingRoom_LightTheCandles_20260116_113738.log
+===== END   MeetingRoom_LightTheCandles.sh @ 2026-01-16 22:21:14 | exit=1 =====
+
+===== START MeetingRoom_MixMilk.sh @ 2026-01-16 22:21:14 =====
+Script: /home/jiangzhenghan/project/4DGaussians/MeetingRoom_MixMilk.sh
+Log   : /home/jiangzhenghan/project/4DGaussians/logs/MeetingRoom_MixMilk_20260116_113738.log
+===== END   MeetingRoom_MixMilk.sh @ 2026-01-17 00:10:35 | exit=0 =====
+
+===== START MeetingRoom_PourHotWater.sh @ 2026-01-17 00:10:35 =====
+Script: /home/jiangzhenghan/project/4DGaussians/MeetingRoom_PourHotWater.sh
+Log   : /home/jiangzhenghan/project/4DGaussians/logs/MeetingRoom_PourHotWater_20260116_113738.log
+===== END   MeetingRoom_PourHotWater.sh @ 2026-01-17 02:04:26 | exit=0 =====
+
+===== START MeetingRoom_WhiteFoamCovers.sh @ 2026-01-17 02:04:26 =====
+Script: /home/jiangzhenghan/project/4DGaussians/MeetingRoom_WhiteFoamCovers.sh
+Log   : /home/jiangzhenghan/project/4DGaussians/logs/MeetingRoom_WhiteFoamCovers_20260116_113738.log
+===== END   MeetingRoom_WhiteFoamCovers.sh @ 2026-01-17 02:43:11 | exit=0 =====
+
+========== RUN END: 2026-01-17 02:43:11 ==========
+Summary CSV : /home/jiangzhenghan/project/4DGaussians/logs/summary_meetingroom_20260116_113738.csv
+Master log  : /home/jiangzhenghan/project/4DGaussians/logs/all_meetingroom_20260116_113738.log

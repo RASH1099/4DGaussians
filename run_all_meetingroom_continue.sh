@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 set -uo pipefail
-
 BASE_DIR="/home/jiangzhenghan/project/4DGaussians"
 SCRIPT_DIR="${BASE_DIR}"
 LOG_DIR="${BASE_DIR}/logs"
