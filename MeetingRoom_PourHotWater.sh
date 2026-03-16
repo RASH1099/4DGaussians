@@ -3,10 +3,10 @@ PORT_BASE=6001
 GT_PATH=/home/jiangzhenghan/project/MeetingRoom
 
 DATASET=MeetingRoom
-SAVE_PATH=output
+SAVE_PATH=output/new
 
 SCENE_LIST=(
-    PourHotWater
+    vrig_PourHotWater
 )
 for SCENE in "${SCENE_LIST[@]}"; do
     echo "scene: $SCENE"
